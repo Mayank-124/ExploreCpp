@@ -1,6 +1,6 @@
 @echo off 
 
-del fReadWrite.exe
-g++ -o fReadWrite fReadWrite.cpp
-fReadWrite.exe
+del test.exe
+g++ -o test test.cpp
+test.exe
 color 2
